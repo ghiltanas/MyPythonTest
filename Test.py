@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #SIMPLE TEST PROGRAM#
 
 hello = 'Hi'
