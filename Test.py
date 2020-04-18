@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-#SIMPLE TEST PROGRAM#
+print('Hi')
 
-hello = 'Hi'
-print('Inserisci il tuo nome:')
-name = input()
-result = 'Benvenuto ' + name.upper()
+name = input("Inserisci il tuo nome: \n")
+print('\n')
+
+result = 'Benvenuto ' + name
 print(result)
