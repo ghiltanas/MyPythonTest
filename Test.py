@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
+import MathematicLib
+
 print('Hi')
-i = 0
+i = 3
 username = 'Ghiltanas'
 password = 'PassW0rd'
 credenzialiSbagliate = 'credenziali sbagliate! Ritenta \n'
@@ -19,3 +21,5 @@ if (check):
     print('Welcome'+username)
 else:
     print('Access not granted!')
+
+print(MathematicLib.mul(5,5))
